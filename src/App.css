@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  border-bottom: 1px solid lightgray;
 }
 
 h1,
@@ -138,6 +139,7 @@ button {
   .mobile-nav {
     width: 1000px;
     margin: 0 auto;
+    border-bottom: none;
   }
 
   .usa-wrapper {
