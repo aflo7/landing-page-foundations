@@ -25,7 +25,7 @@ function App() {
             <div className="text-uppercase usa-wrapper">
               <img
                 src="https://www.svgrepo.com/show/25128/united-states-of-america.svg"
-                height="20px"
+                height="15px"
               />
               Mock
               <FaCaretDown size="1.2rem" />
