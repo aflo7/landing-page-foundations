@@ -1,0 +1,148 @@
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid lightgray;
+}
+
+h2 {
+  color: gray;
+  text-transform: uppercase;
+}
+
+.shop-public-restrooms-button {
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: rgb(13, 139, 208);
+  color: white;
+  border: none;
+}
+
+.img-wrapper > img {
+  width: 200px;
+}
+.changing-stations-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.search-for-products-wrapper {
+  display: none;
+}
+
+.top-nav {
+  display: none;
+}
+
+.img-wrapper {
+  cursor: pointer;
+  font-weight: bold;
+  color: gray;
+}
+
+.img-wrapper:hover {
+  text-decoration: underline;
+}
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav-wrapper {
+    border-bottom: 1px solid lightgray;
+  }
+  .search-for-products-textbox {
+    border: none;
+  }
+
+  .search-for-products-textbox-wrapper {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    gap: 60px;
+  }
+
+  .rx-hamburger-menu {
+    display: none;
+  }
+  .search-for-products-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .search-for-products-textbox {
+    padding: 5px;
+  }
+
+  .md-shopping-cart {
+    color: lightgray;
+  }
+
+  .top-nav-wrapper {
+    background-color: rgb(83, 83, 83);
+  }
+
+  .top-nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+  }
+
+  .top-nav > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .top-nav > div > div {
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    border-right: 1px solid white;
+    font-size: 0.8rem;
+  }
+
+  .top-nav > div > div:hover {
+    text-decoration: underline;
+  }
+
+  .app-inner {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .mobile-nav {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .usa-wrapper {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}
